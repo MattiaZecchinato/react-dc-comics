@@ -5,32 +5,49 @@ import subscriptionImg from '../assets/buy-comics-subscriptions.png';
 import shopLocatorImg from '../assets/buy-comics-shop-locator.png';
 import powerVisaImg from '../assets/buy-dc-power-visa.svg';
 
+// css
+import style from './BlueList.module.css';
+
 function BlueList () {
 
     return (
 
-        <ul>
-            <li>
-                <img src={digitalComicsImg} alt="digital comics" />
-                <p>digital comics</p>
-            </li>
-            <li>
-                <img src={merchandiseImg} alt="dc merchandise" />
-                <p>dc merchandide</p>
-            </li>
-            <li>
-                <img src={subscriptionImg} alt="subscription" />
-                <p>subscription</p>
-            </li>
-            <li>
-                <img src={shopLocatorImg} alt="comic shop locator" />
-                <p>comic shop locator</p>
-            </li>
-            <li>
-                <img src={powerVisaImg} alt="dc power visa" />
-                <p>dc power visa</p>
-            </li>
-        </ul>
+        <div className={style.listBox}>
+            <ul className={style.list}>
+                <li>
+                    <div className={style.boxImg}>
+                        <img src={digitalComicsImg} alt="digital comics" />
+                    </div>
+                    
+                    <p>digital comics</p>
+                </li>
+                <li>
+                    <div className={style.boxImg}>
+                        <img src={merchandiseImg} alt="dc merchandise" />
+                    </div>
+                    <p>dc merchandise</p>
+                </li>
+                <li>
+                    <div className={style.boxImg}>
+                        <img src={subscriptionImg} alt="subscription" />
+                    </div>
+                    <p>subscription</p>
+                </li>
+                <li>
+                    <div className={style.boxImg}>
+                        <img src={shopLocatorImg} alt="comic shop locator" />
+                    </div>
+                    <p>comic shop locator</p>
+                </li>
+                <li>
+                    <div className={style.boxImg}>
+                        <img src={powerVisaImg} alt="dc power visa" />
+                    </div>
+                    <p>dc power visa</p>
+                </li>
+            </ul>
+        </div>
+        
     );
 }
 

@@ -1,0 +1,38 @@
+.listBox {
+
+    background-color: #0282F9;
+    padding: 95px 180px;
+}
+
+.list {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.list li {
+
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.list li p {
+
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}
+
+.boxImg {
+
+    height: 100px;
+}
+
+.boxImg img {
+
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}

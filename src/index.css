@@ -14,13 +14,6 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
-header,
-main,
-footer {
-
-    padding: 0 300px;
-}
-
 /******* 
 common 
 *******/
@@ -53,6 +46,10 @@ hover
 /******* 
 header 
 *******/
+header {
+
+    padding: 0 100px;
+}
 
 .header-box {
 
@@ -80,4 +77,25 @@ header
     text-decoration: none;
     color: #000;
     font-size: 0.75rem;
+}
+
+/******* 
+main 
+*******/
+
+main {
+
+    background-color: #1C1C1C;
+}
+
+.content-box {
+
+    padding: 100px;
+}
+
+.content-box p {
+
+    color: #fff;
+    font-size: 1.75rem;
+    font-weight: bold;
 }

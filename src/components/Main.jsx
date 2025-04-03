@@ -8,10 +8,12 @@ function Main () {
     return (
         <main>
             
-            {/* paragraph */}
-            <p>
-                {paragraphText}
-            </p>
+            <div className='content-box'>
+                {/* paragraph */}
+                <p>
+                    {paragraphText}
+                </p>
+            </div>
 
             {/* blue list */}
             <BlueList />
