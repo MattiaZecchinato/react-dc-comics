@@ -1,10 +1,12 @@
+import dcLogo from '../../public/dc-logo.png';
+
 function Header () {
 
     return (
         <header>
             
             {/* logo */}
-            <img src='../../public/dc-logo.png' alt='logo' />
+            <img src={dcLogo} alt='logo' />
 
             {/* list */}
             <ul>
