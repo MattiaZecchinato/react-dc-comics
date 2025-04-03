@@ -5,12 +5,15 @@ import youtuberImg from '../assets/footer-youtube.png'
 import pinterestImg from '../assets/footer-pinterest.png'
 import periscopeImg from '../assets/footer-periscope.png'
 
+// css
+import style from './Social.module.css'
+
 
 function Social () {
 
     return (
-        <ul>
-            <li>follow us</li>
+        <ul className={style.boxSocial}>
+            <li className={style.listTitle}>follow us</li>
             <li>
                 <a href="/">
                     <img src={facebookImg} alt="facebook" />

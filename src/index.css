@@ -1,3 +1,8 @@
+:root {
+
+    --padding-x: 100px;
+}
+
 /******* 
 reset 
 *******/
@@ -46,17 +51,13 @@ hover
 /******* 
 header 
 *******/
-header {
-
-    padding: 0 100px;
-}
 
 .header-box {
 
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 35px 0;
+    padding: 25px var(--padding-x);
 }
 
 .header-box ul {
@@ -90,7 +91,7 @@ main {
 
 .content-box {
 
-    padding: 100px;
+    padding: 70px var(--padding-x);
 }
 
 .content-box p {
@@ -99,3 +100,79 @@ main {
     font-size: 1.75rem;
     font-weight: bold;
 }
+
+/******* 
+footer 
+*******/
+
+footer {
+
+    background-image: url(./assets/footer-bg.jpg);
+    background-size: cover;
+}
+
+/* top footer */
+
+.top-footer {
+
+    display: flex;
+    gap: 40px;
+    padding: 50px var(--padding-x);
+    position: relative;
+}
+
+.top-footer ul li {
+
+    margin-bottom: 5px;
+}
+
+.top-footer ul a {
+
+    color: #959595;
+    text-decoration: none;
+}
+
+.first-list {
+
+    margin-bottom: 20px;
+}
+
+.top-footer ul .title-list {
+
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.top-footer img {
+
+    position: absolute;
+    right: var(--padding-x);
+    bottom: 50%;
+    translate: 0 50%;
+    z-index: 0;
+}
+
+/* bottom footer */
+
+.bottom-footer {
+
+    background-color: #303030;
+    padding: 30px var(--padding-x);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-btn {
+
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 3px solid #0282F9;
+    padding: 15px 10px;
+}
+

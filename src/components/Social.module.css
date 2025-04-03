@@ -1,0 +1,19 @@
+.boxSocial {
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.boxSocial li img {
+
+    display: block;
+}
+
+.listTitle {
+
+    color: #0282F9;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
