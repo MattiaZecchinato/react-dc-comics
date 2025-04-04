@@ -51,11 +51,144 @@ function App() {
     }
   ];
 
+  // footer array props
+
+  // dc comics
+  const linkDcComicsFooter = [
+    {
+      link: '',
+      title: 'dc comics'
+    },
+    {
+      link: '/',
+      title: 'Characters'
+    },
+    {
+      link: '/',
+      title: 'Comics'
+    },
+    {
+      link: '/',
+      title: 'Movies'
+    },
+    {
+      link: '/',
+      title: 'TV'
+    },
+    {
+      link: '/',
+      title: 'Games'
+    },
+    {
+      link: '/',
+      title: 'Videos'
+    },
+    {
+      link: '/',
+      title: 'News'
+    }
+  ]
+
+  // shop
+  const linkShopFooter = [
+    {
+      link: '',
+      title: 'shop'
+    },
+    {
+      link: '/',
+      title: 'Shop DC'
+    },
+    {
+      link: '/',
+      title: 'Shop DC Collectibles'
+    }
+  ]
+
+  // shop
+  const linkDcFooter = [
+    {
+      link: '',
+      title: 'dc'
+    },
+    {
+      link: '/',
+      title: 'Term Of Use'
+    },
+    {
+      link: '/',
+      title: 'Privicy policy (New)'
+    },
+    {
+      link: '/',
+      title: 'Ad Choices'
+    },
+    {
+      link: '/',
+      title: 'Advertising'
+    },
+    {
+      link: '/',
+      title: 'Jobs'
+    },
+    {
+      link: '/',
+      title: 'Subscriptions'
+    },
+    {
+      link: '/',
+      title: 'Talent Workshop'
+    },
+    {
+      link: '/',
+      title: 'CPSC Certificates'
+    },
+    {
+      link: '/',
+      title: 'Ratings'
+    },
+    {
+      link: '/',
+      title: 'Shop Help'
+    },
+    {
+      link: '/',
+      title: 'Contact Us'
+    }
+  ]
+
+  const linkSitesFooter = [
+    {
+      link: '',
+      title: 'sites'
+    },
+    {
+      link: '/',
+      title: 'DC'
+    },
+    {
+      link: '/',
+      title: 'MAD Magazine'
+    },
+    {
+      link: '/',
+      title: 'DC Kids'
+    },
+    {
+      link: '/',
+      title: 'DC Universe'
+    },
+    {
+      link: '/',
+      title: 'DC Power Visa'
+    }
+  ]
+
   return (
     <>
       <Header list={linkListHeader} />
       <Main />
-      <Footer />
+      <Footer dcComics={linkDcComicsFooter} shop={linkShopFooter} dc={linkDcFooter} sites={linkSitesFooter}/>
     </>
   );
 }
