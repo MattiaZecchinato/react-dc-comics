@@ -7,7 +7,9 @@ function Header (props) {
             
             <div className='header-box'>
                 {/* logo */}
-                <img src={dcLogo} alt='logo' />
+                <a href="/">
+                    <img src={dcLogo} alt='logo' />
+                </a>
 
                 {/* list */}
                 <ul>
