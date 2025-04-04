@@ -7,9 +7,53 @@ import Footer from './components/Footer';
 
 function App() {
 
+  // header array props
+  const linkListHeader = [
+    {
+      link: '/',
+      title: 'characters'
+    },
+    {
+      link: '/',
+      title: 'comics'
+    },
+    {
+      link: '/',
+      title: 'movies'
+    },
+    {
+      link: '/',
+      title: 'tv'
+    },
+    {
+      link: '/',
+      title: 'games'
+    },
+    {
+      link: '/',
+      title: 'collectibles'
+    },
+    {
+      link: '/',
+      title: 'videos'
+    },
+    {
+      link: '/',
+      title: 'fans'
+    },
+    {
+      link: '/',
+      title: 'news'
+    },
+    {
+      link: '/',
+      title: 'shop'
+    }
+  ];
+
   return (
     <>
-      <Header />
+      <Header list={linkListHeader} />
       <Main />
       <Footer />
     </>

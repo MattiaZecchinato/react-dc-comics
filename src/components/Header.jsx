@@ -1,6 +1,6 @@
 import dcLogo from '../../public/dc-logo.png';
 
-function Header () {
+function Header (props) {
 
     return (
         <header>
@@ -11,16 +11,16 @@ function Header () {
 
                 {/* list */}
                 <ul>
-                    <li><a href='/'>characters</a></li>
-                    <li><a href='/'>comics</a></li>
-                    <li><a href='/'>movies</a></li>
-                    <li><a href='/'>tv</a></li>
-                    <li><a href='/'>games</a></li>
-                    <li><a href='/'>collectibles</a></li>
-                    <li><a href='/'>videos</a></li>
-                    <li><a href='/'>fans</a></li>
-                    <li><a href='/'>news</a></li>
-                    <li><a href='/'>shop</a></li>
+                    <li><a href={props.list[0].link}>{props.list[0].title}</a></li>
+                    <li><a href={props.list[1].link}>{props.list[1].title}</a></li>
+                    <li><a href={props.list[2].link}>{props.list[2].title}</a></li>
+                    <li><a href={props.list[3].link}>{props.list[3].title}</a></li>
+                    <li><a href={props.list[4].link}>{props.list[4].title}</a></li>
+                    <li><a href={props.list[5].link}>{props.list[5].title}</a></li>
+                    <li><a href={props.list[6].link}>{props.list[6].title}</a></li>
+                    <li><a href={props.list[7].link}>{props.list[7].title}</a></li>
+                    <li><a href={props.list[8].link}>{props.list[8].title}</a></li>
+                    <li><a href={props.list[9].link}>{props.list[9].title}</a></li>
                 </ul>
             </div>
 
