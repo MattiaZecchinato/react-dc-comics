@@ -56,10 +56,6 @@ function App() {
   // dc comics
   const linkDcComicsFooter = [
     {
-      link: '',
-      title: 'dc comics'
-    },
-    {
       link: '/',
       title: 'Characters'
     },
@@ -92,10 +88,6 @@ function App() {
   // shop
   const linkShopFooter = [
     {
-      link: '',
-      title: 'shop'
-    },
-    {
       link: '/',
       title: 'Shop DC'
     },
@@ -107,10 +99,6 @@ function App() {
 
   // shop
   const linkDcFooter = [
-    {
-      link: '',
-      title: 'dc'
-    },
     {
       link: '/',
       title: 'Term Of Use'
@@ -158,10 +146,6 @@ function App() {
   ]
 
   const linkSitesFooter = [
-    {
-      link: '',
-      title: 'sites'
-    },
     {
       link: '/',
       title: 'DC'
