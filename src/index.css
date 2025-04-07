@@ -94,11 +94,18 @@ main {
     padding: 70px var(--padding-x);
 }
 
-.content-box p {
+.comics-box {
 
-    color: #fff;
-    font-size: 1.75rem;
-    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.comics-box li {
+
+    width: calc((100%) / 6);
+    display: flex;
+    justify-content: center;
 }
 
 /******* 

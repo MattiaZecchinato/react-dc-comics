@@ -1,7 +1,9 @@
+// comics card
+import ComicCard from './ComicsCard.jsx';
 // blueList
 import BlueList from './BlueList';
 
-const paragraphText = '--> Content goes here <--';
+import comicsList from '../data/comics.js';
 
 function Main () {
 
@@ -10,9 +12,13 @@ function Main () {
             
             <div className='content-box'>
                 {/* paragraph */}
-                <p>
-                    {paragraphText}
-                </p>
+                <ul className='comics-box'>
+                    {comicsList.map((elem, i) => 
+                        (<li key={i}>
+                            <ComicCard title={elem.title} series={elem.series} img={elem.thumb} />
+                        </li>)
+                    )}
+                </ul>
             </div>
 
             {/* blue list */}
