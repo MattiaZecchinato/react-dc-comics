@@ -6,7 +6,7 @@ import pinterestImg from '../assets/footer-pinterest.png'
 import periscopeImg from '../assets/footer-periscope.png'
 
 // css
-import style from './Social.module.css'
+import style from '../components-style/Social.module.css'
 
 
 function Social () {

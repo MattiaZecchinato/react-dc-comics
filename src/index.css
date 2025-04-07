@@ -91,7 +91,6 @@ main {
 
 .container-jumbotron {
 
-    width: 100vw;
     height: 400px;
 }
 
@@ -119,9 +118,9 @@ main {
     background-color: #0282F9;
     color: white;
     font-weight: bold;
+    font-size: 2rem;
     text-transform: uppercase;
-    padding: 10px 60px;
-    display: inline-block;
+    padding: 10px 30px;
     position: absolute;
     left: var(--padding-x);
     top: 0;

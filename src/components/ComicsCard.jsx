@@ -1,5 +1,5 @@
 // css
-import style from './ComicsCard.module.css';
+import style from '../components-style/ComicsCard.module.css';
 
 function ComicsCard(props) {
 

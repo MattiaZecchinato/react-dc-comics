@@ -6,7 +6,7 @@ import shopLocatorImg from '../assets/buy-comics-shop-locator.png';
 import powerVisaImg from '../assets/buy-dc-power-visa.svg';
 
 // css
-import style from './BlueList.module.css';
+import style from '../components-style/BlueList.module.css';
 
 function BlueList () {
 
